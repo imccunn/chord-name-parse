@@ -28,8 +28,6 @@ Chord.prototype.chordNameToSet = function() {
 
   if(!chordRex.test(this.cname)){
 
-    return console.log("Incorrect Chord Format to determine set.");
-
   } else {
 
     for (var i = 2; i < 15; i++){
